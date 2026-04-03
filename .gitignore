@@ -45,11 +45,6 @@ torch_cache/
 # =========================
 # Outputs (VERY IMPORTANT)
 # =========================
-outputs/
-results/
-*.png
-*.jpg
-*.jpeg
 
 # BUT keep sample images if needed:
 !sample_data/
