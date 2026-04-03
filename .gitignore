@@ -1,0 +1,74 @@
+# =========================
+# Python basics
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.venv/
+env/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# PyTorch / ML
+# =========================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# =========================
+# Cache (important!)
+# =========================
+.cache/
+torch_cache/
+*.cache
+
+# =========================
+# Outputs (VERY IMPORTANT)
+# =========================
+outputs/
+results/
+*.png
+*.jpg
+*.jpeg
+
+# BUT keep sample images if needed:
+!sample_data/
+!images/
+
+# =========================
+# Logs / CSV
+# =========================
+*.log
+*.csv
+
+# =========================
+# Jupyter (if used)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar
+*.gz
