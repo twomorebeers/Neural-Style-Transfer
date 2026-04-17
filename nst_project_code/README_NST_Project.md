@@ -47,13 +47,13 @@ For a stronger project demo, prepare:
 Run only the recommended baseline:
 
 ```bash
-python nst_compare.py --content content.jpg --style grigorescu.jpg --models vgg19 --steps 300 --output-dir outputs
+python nst_compare.py --content content.png --style dataset/paintings/grigorescu.jpg --models vgg19 --steps 300 --output-dir outputs
 ```
 
 Run all main backbones:
 
 ```bash
-python nst_compare.py --content content.jpg --style grigorescu.jpg --models vgg16 vgg19 resnet50 inception_v3 squeezenet1_1 --steps 300 --output-dir outputs
+python nst_compare.py --content content.png --style dataset/paintings/grigorescu.jpg --models vgg16 vgg19 resnet50 inception_v3 squeezenet1_1 --steps 300 --output-dir outputs
 ```
 
 ## Output files
