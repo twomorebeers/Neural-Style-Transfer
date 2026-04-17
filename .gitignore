@@ -45,6 +45,9 @@ torch_cache/
 # =========================
 # Outputs (VERY IMPORTANT)
 # =========================
+outputs/
+nst_project_code/outputs/
+nst-ui/.runtime/
 
 # BUT keep sample images if needed:
 !sample_data/
