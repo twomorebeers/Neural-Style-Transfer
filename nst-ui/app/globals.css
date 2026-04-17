@@ -1,0 +1,104 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: radial-gradient(circle at top, #1f2937 0%, #0b1020 45%, #020617 100%);
+  color: #e5e7eb;
+}
+
+a {
+  color: #93c5fd;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.panel {
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.input,
+.select,
+.button,
+.checkbox-group {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 10px 12px;
+}
+
+.button {
+  cursor: pointer;
+  border-color: #1d4ed8;
+  background: linear-gradient(90deg, #2563eb, #4f46e5);
+  font-weight: 600;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.muted {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.preview {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.result-card {
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 14px;
+  background: #0b1329;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  white-space: pre-wrap;
+  max-height: 240px;
+  overflow: auto;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 10px;
+  background: #020617;
+}
